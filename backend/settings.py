@@ -59,6 +59,8 @@ MIDDLEWARE = [
 STATIC_ROOT = BASE_DIR / 'staticfiles'  
 
 ROOT_URLCONF = 'backend.urls'
+ALLOWED_HOSTS = ['*']
+
 
 TEMPLATES = [
     {
